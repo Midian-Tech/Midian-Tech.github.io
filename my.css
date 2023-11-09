@@ -1,7 +1,26 @@
-body{
-   background: #ffd295;  
-    }
-    container {
-        Text -align: center;
-    }
-    
+body {
+  background-color: #00c;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.page-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  color: #00c;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
