@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kisii university</title>
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+    <div class="Container">
+        <br><br>
+    <input type="Text"id="input1">
+    <br><br>
+    <input type="password"id="input2">
+    <br><br>
+    <input type=" button"value="ok"on click="my fun()">
+    <div id="output">KISII UNIVERSITY</div>
+    <script>
+         function myfun(){
+    var A=document.getElementById("input1").value
+
+    var B=document.getElementById("input2").value
+     
+    var mess="hello "+A+" your password is "+B
+
+    document.getElementById("output").innerHTML=mess
+ }
+      }
+</body>
+</html>
