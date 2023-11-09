@@ -1,29 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Kisii university</title>
-    <link rel="stylesheet" href="my.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body><!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="Container">
-        <br><br>
-    <input type="Text"id="input1">
-    <br><br>
-    <input type="password"id="input2">
-    <br><br>
-    <input type=" button"value="ok"on click="my fun()">
-    <div id="output">KISII UNIVERSITY</div>
-    <script>
-         function myfun(){
-    var A=document.getElementById("input1").value
-
-    var B=document.getElementById("input2").value
-     
-    var mess="hello "+A+" your password is "+B
-
-    document.getElementById("output").innerHTML=mess
- }
-      }
+  <div class="login-container">
+    <h1>Welcome to Midian Tech</h1>
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <br>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+    <!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="page-content">
+    <h1>About Us</h1>
+    <p>Welcome to Midian Tech. We are a tech company...</p>
+    <a href="services.html">Services</a>
+  </div>
+</body>
+</html>
+    
+  <div class="page-content">
+    <h1>Our Services</h1>
+    <p>We offer a wide range of tech services...</p>
+    <a href="about.html">About</a>
+  </div>
 </body>
 </html>
